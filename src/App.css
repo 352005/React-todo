@@ -1,0 +1,64 @@
+@media screen and (min-width: 600px){
+    body{
+      width: 450px;
+      margin: 5em auto;
+    }
+  }
+
+.header{
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(93, 122, 214);
+}
+
+#inputTodo{
+    border: none;
+    border-bottom: 1.5px solid rgb(93, 122, 214);
+    outline: none;
+    width: 90%;
+    margin: 1em 1em .1em 1em;
+    padding-bottom: .6em;
+    font-size: .9em;
+}
+
+.submit-btn{
+    display: flex;
+    float: right;
+    margin-right: 1.5em;
+    background-color: rgb(93, 122, 214);
+    border: none;
+    outline: none;
+    padding: .3em .8em;
+    border-radius: 2px;
+    color: white;
+}
+
+.todos{
+    margin: 2.5em 1em;
+    background-color: white;
+    box-shadow: 1px 1px 3px white, 1px 1px 2px black;
+    padding: 1.5em;
+}
+
+.check-todo{
+    margin-right: .5em;
+}
+
+.check-todo[type=checkbox] {
+    accent-color: white;
+  }
+
+.todo-text{
+    line-height: 1.9em;
+}
+
+.strike-text{
+    text-decoration: line-through;
+}
+
+.delete-todo{
+    display: flex;
+    float: right;
+    color: rgb(93, 122, 214);
+}
